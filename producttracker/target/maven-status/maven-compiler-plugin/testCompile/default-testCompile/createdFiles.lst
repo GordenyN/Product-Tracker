@@ -1,0 +1,4 @@
+com\yourcompany\producttracker\service\CategoryServiceTest.class
+com\yourcompany\producttracker\service\ProductServiceTest.class
+com\yourcompany\producttracker\controller\CategoryControllerTest.class
+com\yourcompany\producttracker\controller\ProductControllerTest.class

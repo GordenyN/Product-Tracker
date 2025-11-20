@@ -1,0 +1,15 @@
+com\yourcompany\producttracker\service\ProductService.class
+com\yourcompany\producttracker\model\Product.class
+com\yourcompany\producttracker\dto\CategoryResponseDto.class
+com\yourcompany\producttracker\dto\ProductRequestDto.class
+com\yourcompany\producttracker\repository\ProductRepository.class
+com\yourcompany\producttracker\service\NotificationService.class
+com\yourcompany\producttracker\repository\CategoryRepository.class
+com\yourcompany\producttracker\controller\CategoryController.class
+com\yourcompany\producttracker\model\Category.class
+com\yourcompany\producttracker\dto\ProductResponseDto.class
+KafkaConfig.class
+com\yourcompany\producttracker\ProductTrackerApplication.class
+com\yourcompany\producttracker\controller\ProductController.class
+com\yourcompany\producttracker\dto\CategoryRequestDto.class
+com\yourcompany\producttracker\service\CategoryService.class
