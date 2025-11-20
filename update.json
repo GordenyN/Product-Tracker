@@ -1,0 +1,10 @@
+{
+  "nameEn": "Updated Test Product",
+  "nameRu": "Обновлённый тестовый продукт",
+  "characteristics": "Обновлённые характеристики",
+  "weight": 110.0,
+  "size": "M",
+  "expiryDate": "2026-12-31",
+  "stockQuantity": 15,
+  "categoryId": 1
+}

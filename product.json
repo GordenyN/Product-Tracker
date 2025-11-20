@@ -1,0 +1,10 @@
+{
+  "nameEn": "Test Product Low Stock",
+  "nameRu": "Тестовый продукт низкий запас",
+  "characteristics": "Some characteristics",
+  "weight": 100.0,
+  "size": "M",
+  "expiryDate": "2026-12-31",
+  "stockQuantity": 5,
+  "categoryId": 1
+}
