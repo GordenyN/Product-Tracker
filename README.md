@@ -138,6 +138,9 @@ curl http://localhost:8080/api/v1/products
 🟢 Ожидаемый результат:
 Список всех продуктов в формате JSON, включая тот, который вы только что создали.
 
+<img width="2482" height="469" alt="2" src="https://github.com/user-attachments/assets/fa41cb4f-6fd2-46da-b591-6a5cbbf0ed36" />
+
+
 ---
 
 ### 3. Получение продукта по ID (Read One)
@@ -150,6 +153,9 @@ curl http://localhost:8080/api/v1/products/1
 🟢 Ожидаемый результат:
 JSON-объект только что созданного продукта.
 
+<img width="2472" height="140" alt="3" src="https://github.com/user-attachments/assets/1346d4ab-f181-4f43-81c6-24fdc5f9d58c" />
+
+
 ---
 
 ### 4. Обновление продукта (Update)
@@ -159,6 +165,9 @@ curl -X PUT -H "Content-Type: application/json" -d @update.json http://localhost
 ```
 🟢 Ожидаемый результат:
 JSON-объект обновлённого продукта.
+
+<img width="2481" height="143" alt="4" src="https://github.com/user-attachments/assets/731fa5be-321b-48b0-b5f1-dec061a3bc1d" />
+
 
 ---
 
@@ -172,6 +181,9 @@ curl http://localhost:8080/api/v1/products/1
 🟢 Ожидаемый результат:
 JSON-объект продукта с новыми данными.
 
+
+<img width="2483" height="253" alt="5" src="https://github.com/user-attachments/assets/4c10dbc8-9577-4b3c-a329-5c9fc19b2419" />
+
 ---
 
 ### 6. Удаление продукта (Delete)
@@ -183,6 +195,9 @@ curl -X DELETE http://localhost:8080/api/v1/products/1
 ```
 🟢 Ожидаемый результат:
 Успешное удаление обычно возвращает пустой ответ или статус 204 No Content.
+
+
+<img width="2465" height="262" alt="6" src="https://github.com/user-attachments/assets/b515232d-0029-4e60-9c0d-ffb40636e6dc" />
 
 ---
 
@@ -222,6 +237,8 @@ curl -X POST -H "Content-Type: application/json" -d @category.json http://localh
 В ответ вы получите JSON-объект созданной категории, включая её id.
 
 
+<img width="2470" height="148" alt="7" src="https://github.com/user-attachments/assets/3fab9a71-1426-4b1a-852a-40f2e0263406" />
+
 ---
 
 ### 2. Получение всех категорий (Read All)
@@ -233,6 +250,9 @@ curl http://localhost:8080/api/v1/categories
 ```
 🟢 Ожидаемый результат:
 Список всех категорий в формате JSON, включая только что созданную.
+
+
+<img width="2484" height="162" alt="8" src="https://github.com/user-attachments/assets/abadd293-cb6c-4069-afb6-3d16e51252f1" />
 
 ---
 
@@ -246,6 +266,9 @@ curl http://localhost:8080/api/v1/categories/1
 🟢 Ожидаемый результат:
 JSON-объект категории с указанным id.
 
+
+<img width="1729" height="161" alt="9" src="https://github.com/user-attachments/assets/919953e1-d568-4a43-9f43-6a3d15f19095" />
+
 ---
 
 ### 4. Обновление категории (Update)
@@ -255,6 +278,9 @@ curl -X PUT -H "Content-Type: application/json" -d @category-update.json http://
 ```
 🟢 Ожидаемый результат:
 JSON-объект обновлённой категории.
+
+
+<img width="2035" height="160" alt="10" src="https://github.com/user-attachments/assets/a93519ed-4ccd-4277-aa54-7b3ed8af4a1d" />
 
 ---
 
@@ -280,6 +306,9 @@ curl -X DELETE http://localhost:8080/api/v1/categories/1
 🟢 Ожидаемый результат:
 Успешное удаление обычно возвращает статус 204 No Content.
 
+
+<img width="2519" height="215" alt="11" src="https://github.com/user-attachments/assets/4f3caffe-cf3b-45ea-afef-3755d9673c70" />
+
 ---
 
 ### 7. Проверка удаления (Read All Again)
@@ -297,6 +326,9 @@ curl http://localhost:8080/api/v1/categories
 
 
 **Пример сообщения в Telegram:**
+
+
+
 <img width="754" height="953" alt="12" src="https://github.com/user-attachments/assets/5e581510-030b-46d0-9123-edef0ee9b611" />
 
 <img width="739" height="408" alt="13" src="https://github.com/user-attachments/assets/fbc2e739-9c02-4201-9ede-6ca73cccede2" />
