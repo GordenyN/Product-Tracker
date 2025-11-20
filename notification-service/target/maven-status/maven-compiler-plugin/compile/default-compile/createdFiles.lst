@@ -1,0 +1,7 @@
+com\yourcompany\notificationservice\service\KafkaConsumerService.class
+com\yourcompany\notificationservice\dto\Product.class
+com\yourcompany\notificationservice\dto\Category.class
+com\yourcompany\notificationservice\config\AppConfig.class
+com\yourcompany\notificationservice\telegram\TelegramBot$1.class
+com\yourcompany\notificationservice\telegram\TelegramBot.class
+com\yourcompany\notificationservice\NotificationServiceApplication.class

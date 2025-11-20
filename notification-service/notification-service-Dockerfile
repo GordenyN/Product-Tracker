@@ -1,0 +1,14 @@
+# Используем официальный образ Maven для сборки проекта
+FROM maven:3.8.5-openjdk-17 AS build
+WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean package -DskipTests
+
+# Используем официальный образ OpenJDK для запуска приложения
+FROM openjdk:17-jdk-slim
+WORKDIR /app
+# Обратите внимание на имя артефакта, оно должно соответствовать artifactId в pom.xml
+COPY --from=build /app/target/notification-service-1.0-SNAPSHOT.jar .
+EXPOSE 8081
+CMD ["java", "-jar", "notification-service-1.0-SNAPSHOT.jar"]
